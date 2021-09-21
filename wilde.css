@@ -58,3 +58,21 @@ tr{
 tr:nth-child(even){
     background-color: lightblue;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: royalblue;
+    padding: 8px;
+    background-color: seashell;
+}
+li a:hover{
+    background-color: red;
+}
