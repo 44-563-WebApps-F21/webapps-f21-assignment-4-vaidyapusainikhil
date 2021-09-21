@@ -1,0 +1,52 @@
+.stage-direction{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    background-color:paleturquoise;
+
+}
+.stage-direction:hover{
+    background-color: darkkhaki;
+    color: firebrick;
+}
+.name{
+    color: black;
+    font: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Speech styling*/
+.robert{
+    color: maroon;
+    font: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.goring{
+    color: orange;
+    font: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Table styling*/
+table{
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    width: 60%;
+}
+th{
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+td {
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+}
+tr{
+    background-color: green;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
