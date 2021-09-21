@@ -14,6 +14,14 @@
     font: large;
     font-family: 'Times New Roman', Times, serif;
 }
+.name:hover{
+    color: black;
+    font: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px red;
+    filter: blur(0.5px);
+    border: solid pink;
+}
 /*Speech styling*/
 .robert{
     color: maroon;
