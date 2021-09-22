@@ -14,7 +14,14 @@
     font: large;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.name:hover{
+    color: black;
+    font: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px red;
+    filter: blur(0.5px);
+    border: solid pink;
+}
 /*Speech styling*/
 .robert{
     color: maroon;
@@ -26,3 +33,47 @@
     font: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/*Table styling*/
+table{
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    width: 40%;
+}
+th{
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+td {
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+}
+tr{
+    background-color: green;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: royalblue;
+    padding: 8px;
+    background-color: seashell;
+}
+li a:hover{
+    background-color: red;
+}
+
